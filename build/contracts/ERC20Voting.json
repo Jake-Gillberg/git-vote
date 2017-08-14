@@ -1,0 +1,92 @@
+{
+  "contract_name": "ERC20Voting",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "name": "tokensReceived",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "candidate",
+          "type": "bytes32"
+        }
+      ],
+      "name": "totalVotesFor",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "candidate",
+          "type": "bytes32"
+        },
+        {
+          "name": "numTokens",
+          "type": "uint256"
+        }
+      ],
+      "name": "vote",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "token",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "tokenAddress",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b60405160208061023a833981016040528080519150505b60018054600160a060020a031916600160a060020a0383161790555b505b6101e7806100536000396000f300606060405263ffffffff60e060020a6000350416632997920181146100455780632f265cf71461006d5780639ef1204c14610095578063fc0c546a146100b0575b600080fd5b341561005057600080fd5b61005b6004356100df565b60405190815260200160405180910390f35b341561007857600080fd5b61005b6004356100f1565b60405190815260200160405180910390f35b34156100a057600080fd5b6100ae600435602435610106565b005b34156100bb57600080fd5b6100c36101ac565b604051600160a060020a03909116815260200160405180910390f35b60006020819052908152604090205481565b6000818152602081905260409020545b919050565b600154600160a060020a03166323b872dd33308460006040516020015260405160e060020a63ffffffff8616028152600160a060020a0393841660048201529190921660248201526044810191909152606401602060405180830381600087803b151561017257600080fd5b6102c65a03f1151561018357600080fd5b50505060405180519050156101a75760008281526020819052604090208054820190555b5b5050565b600154600160a060020a0316815600a165627a7a723058209b42485638a480bf79e647d1bb4c02a2621045231654a63eb7dd02368d7fa9f80029",
+  "networks": {
+    "1502492402657": {
+      "events": {},
+      "links": {},
+      "address": "0x7f59fcaceb492ca3dc8bd6158533b0817e6d78e3",
+      "updated_at": 1502730804277
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1502730804277
+}

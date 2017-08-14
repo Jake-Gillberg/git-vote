@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Jake-Gillberg/git-vote/issues"
   },
-  "homepage": "https://github.com/Jake-Gillberg/git-vote#readme"
+  "homepage": "https://github.com/Jake-Gillberg/git-vote#readme",
+  "devDependencies": {
+    "webpack": "^3.5.4"
+  },
+  "dependencies": {
+    "truffle-contract": "^2.0.5"
+  }
 }

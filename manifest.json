@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Rchain issue voting",
+  "description": "This extension lets you vote on github issues using RHOC",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*.github.com/*/issues*",
+        "https://*.github.com/*/issues*"
+      ],
+      "js": ["dist/content.bundle.js"]
+    }
+  ],
+  "web_accessible_resources": ["dist/insertVotes.bundle.js"]
+}
