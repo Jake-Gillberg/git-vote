@@ -1,0 +1,19 @@
+{
+  "name": "git-vote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "manifest.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jake-Gillberg/git-vote.git"
+  },
+  "author": "Jake Gillberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jake-Gillberg/git-vote/issues"
+  },
+  "homepage": "https://github.com/Jake-Gillberg/git-vote#readme"
+}
