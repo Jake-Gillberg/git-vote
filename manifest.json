@@ -8,8 +8,8 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*.github.com/*/issues*",
-        "https://*.github.com/*/issues*"
+        "http://*.github.com/*",
+        "https://*.github.com/*"
       ],
       "js": ["dist/content.bundle.js"]
     }
