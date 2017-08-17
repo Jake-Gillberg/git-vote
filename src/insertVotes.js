@@ -149,6 +149,6 @@ function voteButtonClick(ERC20Voting, ERC20, user, repo, issueNum) {
 function enableVoting(enable) {
   const voteButtons = document.querySelectorAll('.vote-btn');
   for (const button of voteButtons) {
-    button.disabled = !enable
+    button.disabled = !enable;
   }
 }

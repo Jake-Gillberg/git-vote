@@ -2,6 +2,8 @@
 
 Chrome extension that allows voting on GitHubIssues using an ERC20 token. (Created for Rchain)
 
+![vote buttons with vote count added to issues listing](screenshots/git-vote\ in\ action?raw=true)
+
 ## Installing
 1.  [download this repo](https://github.com/Jake-Gillberg/git-vote/archive/master.zip)
 2.  unzip the downloaded file
